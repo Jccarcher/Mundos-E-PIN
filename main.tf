@@ -17,7 +17,7 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration option
+  # Configuration options
   region = "us-east-2"
   
   access_key = "NO LO TENGO"
