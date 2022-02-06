@@ -9,10 +9,10 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "NO LO SE"
-    key    = "tfstates/terraform.tfstate"
-  }
+  # backend "s3" {
+  #   bucket = "NO LO SE"
+  #   key    = "tfstates/terraform.tfstate"
+  # }
 
 }
 
