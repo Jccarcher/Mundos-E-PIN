@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: nginx  
+      app: nginx
   replicas: 3 # tells deployment to run 1 pods matching the template
   template: # create pods using pod definition in this template
     metadata:
